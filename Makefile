@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 
-# make KDIR=../rust-for-linux M=$$PWD ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- O=build
+# make KDIR=../rust-for-linux ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- O=build
 KDIR ?= ../rust-for-linux
 ARCH ?= riscv
 CROSS_COMPILE ?= riscv64-linux-gnu
