@@ -1,6 +1,9 @@
 # SPDX-License-Identifier: GPL-2.0
 
 .*
+busybox*
+target
+!.cargo
 *.ko
 *.mod
 *.mod.c
